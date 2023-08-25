@@ -61,3 +61,8 @@ def upload_file():
                 print(infof)
                 print(daclass)
             return render_template('index.html', class_name=class_name, confidence_score=confidence_score, info=infof, file=filename, daclass=daclass)
+
+
+if __name__ = "__main___":
+    app.run(host='0.0.0.0')
+
